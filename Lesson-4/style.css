@@ -1,0 +1,35 @@
+html,
+body {
+    margin: 0%;
+    padding: 0;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+  
+    width: 500px;
+    height: 500px;
+    background-color: #070000;
+}
+.item {
+    border: 2px solid#ffffff;
+    padding-inline: 24px 12px 24px 12px;
+    color: #ffffff;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#avatar{
+    width: 100px;
+    height: 100px;
+}
